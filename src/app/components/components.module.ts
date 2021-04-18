@@ -5,6 +5,8 @@ import { FormsModule } from "@angular/forms";
 import { NouisliderModule } from "ng2-nouislider";
 import { JwBootstrapSwitchNg2Module } from "jw-bootstrap-switch-ng2";
 import { RouterModule } from "@angular/router";
+import { NavbarComponent } from "../shared/navbar/navbar.component";
+import { FooterComponent } from "../shared/footer/footer.component";
 
 import { ContactsComponent } from "../components/contacts/contacts.component";
 
@@ -17,7 +19,7 @@ import { ContactsComponent } from "../components/contacts/contacts.component";
     RouterModule,
     JwBootstrapSwitchNg2Module,
   ],
-  declarations: [ContactsComponent],
+  declarations: [ContactsComponent,NavbarComponent, FooterComponent],
   //   entryComponents: [NgbdModalContent],
   //   exports: [ComponentsComponent],
 })

@@ -23,7 +23,7 @@
         <div class="section-buttons">
             <div class="col-sm-4 custom">
                 <div class="row">
-                    <a href="#login"><button type="button" class="btn btn-outline-danger btn-lg">Login</button></a>
+                    <button (click)="scroll(login)" type="button" class="btn btn-outline-danger btn-lg">Login</button>
                 </div>
             </div>
         </div>
@@ -35,8 +35,8 @@
             </a> -->
         </h6>
     </div>
-    <div>
-        <app-signup id="login"></app-signup>
+    <div  #login>
+        <app-signup></app-signup>
     </div>
     <!-- <div class="main">
         <app-basicelements></app-basicelements>

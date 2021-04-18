@@ -7,14 +7,12 @@ import { AppRoutingModule } from "./app.routing";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MDBBootstrapModule } from "angular-bootstrap-md";
 import { AppComponent } from "./app.component";
-import { NavbarComponent } from "./shared/navbar/navbar.component";
-import { FooterComponent } from "./shared/footer/footer.component";
 
 import { ComponentsModule } from "./components/components.module";
 import { HttpClientModule, HttpClient } from "@angular/common/http";
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, FooterComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     NgbModule,

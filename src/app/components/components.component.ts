@@ -14,6 +14,9 @@ import { NgbDateStruct } from "@ng-bootstrap/ng-bootstrap";
   ],
 })
 export class ComponentsComponent implements OnInit {
+  scroll(el:HTMLElement){
+el.scrollIntoView()
+  }
   page = 4;
   page1 = 5;
   focus;
